@@ -82,6 +82,7 @@ header img{
 }
 
 #About h3{
+    float: left;
     text-align: left;
     font-size: 4em;
     font-family: Montserrat;
@@ -93,6 +94,7 @@ header img{
     padding-top: 1em;
     padding-bottom: 3em;
     text-align: left;
+    float: left;
     font-size: 2em;
     color: #ffffff;
 }
@@ -100,7 +102,6 @@ header img{
 .list{
     padding-top: 1.5em;
     padding-bottom: 1.5em;
-
     font-size: 2em;
     color: #ffffff;
 
