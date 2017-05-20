@@ -1,0 +1,174 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(MontserratBold.ttf);
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(RobotoRegular.ttf);
+}
+
+body{
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+}
+
+header img{
+
+}
+
+#intro{
+    background: url(landing.jpeg) no-repeat center center fixed;
+    padding-left: 3em;
+    padding-right: 6em;
+    padding-top: 2em;
+    padding-bottom: 10em;
+}
+
+#intro h1{
+    font-family: Montserrat;
+    color: #ffffff;
+    font-size: 12em;
+    margin-top: 2.1em;
+    margin-left: 0.3em;
+}
+
+#MainNav{
+    display: inline;
+}
+
+#MainNav li{
+    display: inline;
+    list-style: none;
+    float: right;
+    margin-left: 3em;
+    margin-top: 1.5em;
+}
+
+#MainNav li a{
+    font-size: 2em;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#MainNav li a:hover{
+    border-bottom: 3px solid #ffffff;
+}
+
+
+#intro img{
+    height: 4em;
+    width: auto;
+}
+
+#intro p{
+    font-size: 2em;
+    color: #ffffff;
+    margin-top: 1.5em;
+    margin-left: 2em;
+}
+
+#About{
+    padding-top: 8em;
+    padding-left: 9em;
+    padding-right: 9em;
+    padding-bottom: 4em;
+    background: #1d3461;
+}
+
+#About h3{
+    text-align: left;
+    font-size: 4em;
+    font-family: Montserrat;
+    color: #ffffff;
+
+}
+
+#About p{
+    padding-top: 1em;
+    padding-bottom: 3em;
+    text-align: left;
+    font-size: 2em;
+    color: #ffffff;
+}
+
+.list{
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+
+    font-size: 2em;
+    color: #ffffff;
+
+}
+
+#when{
+    background: #fb3640;
+    padding-top: 14em;
+    padding-bottom: 14em;
+    padding-left: 9em;
+    padding-right: 9em;
+}
+
+#when h3{
+    text-align: left;
+    font-size: 4em;
+    font-family: Montserrat;
+    color: #ffffff;
+}
+
+#when p{
+    padding-top: 1.2em;
+    text-align: left;
+    font-size: 2em;
+    color: #ffffff;
+}
+
+#when form{
+    margin-top: 2em;
+    margin-left: 0em;
+}
+
+#when input[type="text"]{
+    width: 30em;
+    padding: 0.6em;
+    border-radius: 10px;
+    font-size: 1.2em;
+    border: 1px solid #1d3461;
+}
+
+#when input[type="submit"]{
+    background: Transparent;
+    margin-top: 2em;
+    color: #ffffff;
+    font-size: 1.2em;
+    border-radius: 5px;
+    width: 16em;
+    padding: 0.6em;
+    font-size: 1.2em;
+    border: 3px solid #ffffff;
+}
+
+#when input[type="submit"]:hover{
+    background: #ffffff;
+    margin-top: 2em;
+    color: #fb3640;
+
+}
+
+
+#Contact{
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    padding-left: 9em;
+    background: #1d3461;
+}
+
+#Contact p{
+    font-size: 1.2em;
+    color: #ffffff;
+}

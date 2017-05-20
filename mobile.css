@@ -1,0 +1,67 @@
+@media screen and (max-width: 800px){
+    #intro{
+        background: url(landing.jpeg) no-repeat center center fixed;
+        padding-left: 1em;
+    }
+
+    #intro h1{
+        font-family: Montserrat;
+        color: #ffffff;
+        font-size: 6em;
+        margin-top: 2.1em;
+        margin-left: 0em;
+    }
+
+    #intro p{
+        font-size: 2em;
+        color: #ffffff;
+        margin-top: 1.5em;
+        margin-left: 0em;
+    }
+
+    #About p{
+        padding-top: 3em;
+        padding-bottom: 3em;
+        text-align: center;
+        font-size: 2em;
+        color: #ffffff;
+        width: 12em;
+        margin: 0 auto;
+    }
+
+    .list{
+        padding-top: 1.5em;
+        padding-bottom: 1.5em;
+
+        font-size: 2em;
+        color: #ffffff;
+        width: 12em;
+        margin: 0 auto;
+
+    }
+
+    #when form{
+        margin-top: 2em;
+        margin-left: 2em;
+    }
+
+    #when input[type="text"]{
+        width: 10em;
+        padding: 0.6em;
+        border-radius: 10px;
+        font-size: 1.2em;
+        border: 1px solid #1d3461;
+    }
+
+    #when input[type="submit"]{
+        background: Transparent;
+        margin-top: 2em;
+        color: #ffffff;
+        font-size: 1.2em;
+        border-radius: 5px;
+        width: 16em;
+        padding: 0.6em;
+        font-size: 1.2em;
+        border: 3px solid #ffffff;
+    }
+}
